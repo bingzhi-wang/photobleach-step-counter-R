@@ -1,0 +1,7 @@
+^LICENSE$
+^README\.md$
+^count_photobleaching\.R$
+^results.*$
+^\.github$
+^.*\.Rproj$
+^\.Rproj\.user$

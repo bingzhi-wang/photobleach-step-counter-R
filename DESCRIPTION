@@ -1,0 +1,24 @@
+Package: photobleach
+Type: Package
+Title: Count Photobleaching Steps in Single-Molecule Fluorescence Trajectories
+Version: 1.0.0
+Authors@R: c(
+    person("Bingzhi", "Wang", role = c("aut", "cre"),
+           email = "your.email@example.com"),
+    person("Konstantinos", "Tsekouras", role = c("aut", "cph"),
+           comment = "original mSIC step-finding code (2015)"),
+    person("Sina", "Jazani", role = c("aut", "cph"),
+           comment = "original mSIC step-finding code (2015)"))
+Description: Counts how many fluorescent molecules sit in a diffraction-limited
+    spot by finding the photobleaching steps in its intensity trace. Implements the
+    Bayesian step-finding method of Tsekouras et al. (2016) <doi:10.1091/mbc.E16-06-0404>,
+    which scores step arrangements with a modified Schwarz Information Criterion,
+    in a fast vectorised form for batch analysis of many trajectories, with
+    interactive (click-based) setting of the priors.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 4.0)
+Imports: graphics, grDevices, stats, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1
