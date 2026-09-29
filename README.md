@@ -2,7 +2,7 @@
 
 Counts how many fluorescent molecules sit in a single diffraction-limited spot by finding the photobleaching steps in its intensity trace. The package processes many traces in one run.
 
-This is the R port of [photobleach-step-counter](https://github.com/bingzhi-wang/photobleach-step-counter) (Python). It gives **results identical to the Python version**, frame for frame, and needs nothing beyond base R.
+This is the R port of [photobleach-step-counter](https://github.com/bingzhi-wang/photobleach-step-counter) (Python). 
 
 ![Example fit](man/figures/example_fit.png)
 *A synthetic trace with 6 fluorophores. Two of them bleach in the same frame (the double step near frame 36), and the fit still recovers the correct count.*
